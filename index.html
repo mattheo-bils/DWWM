@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    h1 {color: #fd0000}
+    
+    p {color: #800080}
+
+    #title2 {color: #FFFF00}
+
+    #title3 {color: #0000FF}
+    </style>
+</head>
+<body>
+    <h1 id="title" class="titre">premier site</h1>
+    <p> dans ce site il'y aura des info inattendu</p>
+    <button onclick="changer()">titre 1</button>
+    <script>
+       function changer(){
+        document.getElementById("title").innerText="libération des sites"
+       } 
+    </script>
+    <h2 id="title2" class="titre">titre numéro 2</h2>
+    <p>salut</p>
+    <button onclick="changer2()">titre 2</button>
+    <script>
+       function changer2(){
+        document.getElementById("title2").innerText="sa va changer"
+       } 
+    </script>
+    <h2 id="title3" class="titre">titre numéro 3</h2>
+    <p>gooooooooo</p>
+    <button onclick="changer3()">titre 3</button>
+    <script>
+       function changer3(){
+        document.getElementById("title3").innerText="aller"
+       } 
+    </script>
+    <button onclick="changer4()">tout les titre</button>
+    <script>
+       function changer4(){
+        document.getElementsByClassName("titre")[2].innerText="erreur"
+       } 
+    </script>
+</body>
+</html>

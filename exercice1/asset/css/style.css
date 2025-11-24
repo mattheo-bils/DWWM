@@ -1,0 +1,30 @@
+#hero {
+    background-color: #a52a2a;
+    text-align: center;
+
+}
+
+#hero:hover {
+    background-color: #0000ff;
+    color: #7fffd4;
+}
+.hero {
+    display: flex ;
+
+}
+
+
+.hero1 {
+    border: solid;
+    border-width: 2px;
+    padding: 20px;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    border-color: #d2691e;
+}
+
+.hero1:hover {
+    border-color: #228b22;
+    color: #ff6347;
+}
