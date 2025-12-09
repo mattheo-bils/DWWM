@@ -23,16 +23,13 @@ header{
 #service{
     color: #fff;
 }
-li {
-    list-style-type: none;
-    font-size: 18px;
-}
 
-#deroulant {
+
+.deroulant {
     position: relative;
 }
 
-#sous {
+.sous {
     display: none;
     position: absolute;
     background: white;
@@ -45,12 +42,18 @@ li {
     z-index: 10;
 }
 
-#sous a {
+.sous a {
     display: block;
-    
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
 }
 
-#deroulant :hover #sous {
+.sous a:hover {
+    background: #eee;
+}
+
+.deroulant:hover .sous {
     display: block;
 }
 
