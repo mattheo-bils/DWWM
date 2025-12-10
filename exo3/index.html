@@ -9,7 +9,7 @@
 <body>
     <header>
         <img id="logo" src="asset/font/téléchargement.jpg" alt="">
-        <div id="menutoggle">
+        <div id="menutoggle" onclick="toggleMenu()">
             <span></span>
             <span></span>
             <span></span>
@@ -56,5 +56,12 @@
     <footer id="footer">
         <p>Test Stagiaires de Développeur Web Lille 09/12/2025</p>
     </footer>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('#nav');
+            nav.classList.toggle("active");
+        }
+    </script>
 </body>
 </html>
