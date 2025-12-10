@@ -91,20 +91,6 @@ button {
     border-radius: 10px;
 }
 
-#menutoggle {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    gap: 5px;
-}
-
-#menutoggle span {
-    width: 25px;
-    height: 3px;
-    background: #fff;
-    display: block;
-    border-radius: 2px;
-}
 
 h1 {
     font-size: 40px;
