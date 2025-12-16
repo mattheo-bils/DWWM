@@ -2,15 +2,39 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    top: 0;
+    padding: 0 40px;
 }
 
 .navbar h2 {
     align-self: flex-start;
 }
 
-
+.nav-icon {
+    align-self: center;
+}
 
 .nav-img {
     width: 40px;
     height: 40px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar div {
+    align-self: flex-start;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 190px;
+}
+
+.button-head {
+    border: none;
+    background-color: #fff;
 }
