@@ -38,3 +38,58 @@
     border: none;
     background-color: #fff;
 }
+
+
+.card2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.card2 img {
+    width: 30%;
+}
+
+.sale img {
+    width: 50%;
+}
+
+
+.sale2 img {
+    width: 50%;
+}
+
+.card3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    max-width: 1400px;
+    margin: 30px auto;
+}
+
+.card3 img {
+    width: 198px;
+    height: 308px;
+}
+
+.load {
+    display: flex;
+    justify-content: center;
+}
+
+.button-main2 {
+    border: none;
+    background: #000;
+    color: #fff;
+}
+
+.card-indiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-indiv p {
+    justify-self: center;
+}
