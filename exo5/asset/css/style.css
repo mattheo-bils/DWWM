@@ -136,7 +136,8 @@ body{
 
 .sale2 {
     background-image: url(../font/903a3dc29b86cc1bdc723c3a0d045c7a522c9c0b.png);
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
     position: relative;
     border: none;
     width: 100%;
